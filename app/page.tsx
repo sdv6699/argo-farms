@@ -41,7 +41,7 @@ export default function Home() {
             </div>
             <div className="relative mt-8 lg:mt-0 lg:ml-auto">
               <img
-                src="/placeholder.svg?height=400&width=600"
+                src="/plantation.webp?height=400&width=600"
                 alt="Sandalwood Plantation"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover w-full"
                 width={600}
@@ -74,7 +74,7 @@ export default function Home() {
             </div>
             <div className="space-y-4 mt-6 lg:mt-0 lg:ml-auto">
               <img
-                src="/placeholder.svg?height=400&width=600"
+                src="/trees.jpg?height=400&width=600"
                 alt="Sandalwood Trees"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover w-full"
                 width={600}
