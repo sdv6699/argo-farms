@@ -227,7 +227,7 @@ export default function Home() {
               </Button>
               <Button
                 variant="outline"
-                className="border-white text-white hover:bg-green-800 w-full sm:w-auto"
+                className="bg-white text-green-700 hover:bg-green-100 w-full sm:w-auto"
                 size="lg"
               >
                 Contact Us
