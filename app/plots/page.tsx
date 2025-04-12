@@ -167,9 +167,9 @@ export default function PlotsPage() {
         <h2 className="text-xl font-bold mb-4">Investment Information</h2>
         <div className="space-y-4">
           <p>
-            Each plot is 6 cents in size and priced at ₹4,99,999. Our sandalwood
+            {`Each plot is 6 cents in size and priced at ₹4,99,999. Our sandalwood
             plantation offers a unique opportunity to invest in "Green Gold"
-            with high returns over a 15-year growth period.
+            with high returns over a 15-year growth period.`}
           </p>
           <p>
             The plots are located in our premium, fully gated plantation in
