@@ -6,6 +6,14 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Info, MapPin, TreesIcon as Tree } from "lucide-react";
+type Plot = {
+  id: number;
+  plotNumber: string;
+  size: string;
+  price: number;
+  location: string;
+  isAvailable: boolean;
+};
 
 // Mock data for plots
 const plotsData = Array.from({ length: 30 }).map((_, i) => ({
@@ -18,7 +26,7 @@ const plotsData = Array.from({ length: 30 }).map((_, i) => ({
 }));
 
 export default function PlotsPage() {
-  const [selectedPlot, setSelectedPlot] = useState(null);
+  const [selectedPlot, setSelectedPlot] = useState<Plot | null>(null);
   const [filter, setFilter] = useState("all");
 
   const filteredPlots =
