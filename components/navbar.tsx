@@ -31,21 +31,23 @@ export function Navbar() {
             Plots
           </Link>
           <Link
-            href="#"
+            href="/about"
             className="text-sm font-medium hover:underline underline-offset-4"
           >
             About
           </Link>
           <Link
-            href="#"
+            href="/contact"
             className="text-sm font-medium hover:underline underline-offset-4"
           >
             Contact
           </Link>
         </nav>
-        <Button className="ml-6 hidden bg-green-700 hover:bg-green-800 md:flex">
-          Invest Now
-        </Button>
+        <Link href={"/plots"}>
+          <Button className="ml-6 hidden bg-green-700 hover:bg-green-800 md:flex">
+            Invest Now
+          </Button>
+        </Link>
         <Button
           variant="ghost"
           size="icon"
@@ -78,22 +80,24 @@ export function Navbar() {
               Plots
             </Link>
             <Link
-              href="#"
+              href="/about"
               className="text-sm font-medium hover:underline underline-offset-4"
               onClick={() => setIsMenuOpen(false)}
             >
               About
             </Link>
             <Link
-              href="#"
+              href="/contact"
               className="text-sm font-medium hover:underline underline-offset-4"
               onClick={() => setIsMenuOpen(false)}
             >
               Contact
             </Link>
-            <Button className="w-full bg-green-700 hover:bg-green-800 mt-2">
-              Invest Now
-            </Button>
+            <Link href={"/plots"}>
+              <Button className="w-full bg-green-700 hover:bg-green-800 mt-2">
+                Invest Now
+              </Button>
+            </Link>
           </nav>
         </div>
       )}

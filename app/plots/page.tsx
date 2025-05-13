@@ -72,6 +72,8 @@ export default function PlotsPage() {
                         className={`h-8 w-8 mb-2 ${
                           plot?.status === "available"
                             ? "text-green-700"
+                            : plot.status === "waiting"
+                            ? "text-amber-700"
                             : "text-gray-400"
                         }`}
                       />
@@ -81,10 +83,16 @@ export default function PlotsPage() {
                         className={`mt-2 ${
                           plot.status === "available"
                             ? "bg-green-100 text-green-800 hover:bg-green-100"
+                            : plot.status === "waiting"
+                            ? "bg-amber-100 text-amber-800 hover:bg-amber-100"
                             : "bg-red-100 text-red-800 hover:bg-red-100"
                         }`}
                       >
-                        {plot.status === "available" ? "Available" : "Booked"}
+                        {plot.status === "available"
+                          ? "Available"
+                          : plot.status === "waiting"
+                          ? "Waiting"
+                          : "Booked"}
                       </Badge>
                     </div>
                   </div>

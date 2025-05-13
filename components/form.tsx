@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { useState } from "react";
@@ -87,7 +88,7 @@ export function BookingForm({
         .then(async ({ data }) => {
           await supabase
             .from("plots")
-            .update({ status: "booked", customer_id: data.id })
+            .update({ status: "waiting", customer_id: data.id })
             .eq("id", plotId);
         });
 
@@ -188,6 +189,22 @@ export function BookingForm({
                     </FormItem>
                   )}
                 />
+                <div>
+                  <h2>UPI ID</h2>
+
+                  <img
+                    src="/scanner.jpg?height=300&width=300"
+                    alt="Sandalwood Trees"
+                    // className="mx-auto aspect-video overflow-hidden rounded-xl object-cover w-full"
+                    width={200}
+                    height={300}
+                    
+                  />
+                  <span className="text-sm text-muted-foreground">
+                    9515130310-2@ybl
+                  </span>
+                </div>
+
                 <DialogFooter className="pt-4">
                   <Button
                     type="button"
