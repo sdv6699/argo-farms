@@ -42,7 +42,7 @@ export default function AboutPage() {
         </div>
         <div className="relative">
           <img
-            src="/placeholder.svg?height=400&width=600"
+            src="/trees.jpg?height=400&width=600"
             alt="Sri Dhana Varshini Plantation"
             className="rounded-lg object-cover w-full h-auto"
             width={600}
