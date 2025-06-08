@@ -21,7 +21,7 @@ export default function Home() {
                 An Investment Rooted in Trust and Growth
               </p>
               <p className="text-gray-500">
-                Own a 6-cent plot for just ₹4,99,999 and watch your investment
+                Own a 8-cent plot for just ₹4,99,999 and watch your investment
                 skyrocket over the next 15 years.
               </p>
               <div className="flex flex-col sm:flex-row gap-2">
