@@ -35,7 +35,9 @@ export default function Home() {
                   </Link>
                 </Button>
                 <Button variant="outline" size="lg">
+                   <Link href="/contact">
                   Contact Us
+                    </Link> 
                 </Button>
               </div>
             </div>
