@@ -32,7 +32,7 @@ function AuthDetailsProvider({ children }: { children: React.ReactNode }) {
     null
   );
   const getPlots = async () => {
-    const { data } = await supabase.from("plots").select().order('name', { ascending: false });
+    const { data } = await supabase.from("plots").select().order('name');
 
     setPlotData(data);
   };
