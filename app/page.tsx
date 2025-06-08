@@ -153,13 +153,13 @@ export default function Home() {
                 <li className="flex items-start gap-2">
                   <Check className="h-5 w-5 text-green-700 mt-0.5 shrink-0" />
                   <span className="text-base md:text-lg">
-                    6-cent plot for just ₹4,99,999
+                    8-cent plot for just ₹4,99,999
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Check className="h-5 w-5 text-green-700 mt-0.5 shrink-0" />
                   <span className="text-base md:text-lg">
-                    26.5 acres of premium land in Nellore District
+                    26.5 acres of premium land in Badvel
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
