@@ -76,7 +76,7 @@ export default function Home() {
             </div>
             <div className="space-y-4 mt-6 lg:mt-0 lg:ml-auto">
               <img
-                src="/trees.jpg?height=400&width=600"
+                src="/trees.jpg?height=500&width=600"
                 alt="Sandalwood Trees"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover w-full"
                 width={600}
