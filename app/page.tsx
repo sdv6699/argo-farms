@@ -232,7 +232,7 @@ export default function Home() {
                 className="bg-white text-green-700 hover:bg-green-100 w-full sm:w-auto"
                 size="lg"
               >
-                Contact Us
+                <Link href="/contact">Contact Us</Link>
               </Button>
             </div>
           </div>
