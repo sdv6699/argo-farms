@@ -109,8 +109,8 @@ export default function ContactPage() {
                   <Phone className="h-5 w-5 text-green-700 mt-1 shrink-0" />
                   <div>
                     <p className="font-medium">Phone</p>
-                    <p className="text-gray-500">+91 1234567890</p>
-                    <p className="text-gray-500">+91 9876543210</p>
+                    <p className="text-gray-500">+91 8989458686</p>
+                    <p className="text-gray-500">+91 8374989714</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
